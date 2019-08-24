@@ -115,7 +115,7 @@ exports.handler = skillBuilder
     HelpHandler,
     CancelAndStopHandler,
     SessionEndedRequestHandler,
-  	HelloHandler,
+    HelloHandler,
   )
   .addErrorHandlers(ErrorHandler)
   .lambda();
